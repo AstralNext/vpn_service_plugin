@@ -1,5 +1,5 @@
-name: tunnel_service_plugin
-description: Android network tunnel service plugin for Astral
+name: vpn_service_plugin
+description: Android VPN service plugin for Astral
 version: 0.0.1
 
 environment:
@@ -20,5 +20,5 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.astral.tunnel_service
-        pluginClass: TunnelServicePlugin
+        package: com.astral.vpn_service
+        pluginClass: VpnServicePlugin

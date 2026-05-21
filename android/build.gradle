@@ -1,4 +1,4 @@
-group 'com.astral.tunnel_service'
+group 'com.astral.vpn_service'
 version '1.0'
 
 buildscript {
@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.astral.tunnel_service'
+    namespace 'com.astral.vpn_service'
     compileSdk 34
 
     compileOptions {
